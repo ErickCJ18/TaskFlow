@@ -1,0 +1,27 @@
+{
+  "usuario": {
+    "name": "Usuario Test",
+    "email": "test_taskflow@prueba.com",
+    "password": "Test1234!"
+  },
+  "tareas": [
+    {
+      "titulo": "Diseñar wireframes del dashboard",
+      "descripcion": "Crear los mockups de todas las pantallas principales",
+      "prioridad": "Alta",
+      "fecha": "2026-06-30"
+    },
+    {
+      "titulo": "Configurar base de datos SQL Server",
+      "descripcion": "Instalar y configurar la instancia local de SQL Server",
+      "prioridad": "Media",
+      "fecha": "2026-05-20"
+    },
+    {
+      "titulo": "Escribir documentación del proyecto",
+      "descripcion": "Redactar el README y los comentarios del código",
+      "prioridad": "Baja",
+      "fecha": "2026-07-15"
+    }
+  ]
+}
