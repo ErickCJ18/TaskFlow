@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middlewares
-app.use(cors({ origin: '0.0.0.0', credentials: true }));
+app.use(cors({ origin: 'https://tfapi.onrender.com', credentials: true }));
 app.use(express.json());
 
 // Rutas
@@ -26,7 +26,7 @@ app.get('/api/health', (req, res) => {
 const startServer = async () => {
   await connectDB();
   app.listen(PORT, () => {
-    console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
+    console.log(`🚀 Servidor corriendo en https://tfapi.onrender.com`);
   });
 };
 
