@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middlewares
-app.use(cors({ origin: 'https://tfapi.onrender.com', credentials: true }));
+app.use(cors({ origin: 'https://taskflow-3ltx.onrender.com', credentials: true }));
 app.use(express.json());
 
 // Rutas
